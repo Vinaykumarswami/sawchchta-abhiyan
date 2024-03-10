@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, main, footer {
+    width: 100%;
+  }
+  
+  header, footer {
+    background-color: #333; /* Dark background color for header and footer */
+    color: white; /* White text color for header and footer */
+    padding: 10px;
+  }
+  
+  .logo-container, .navbar-container, .login-form-container {
+    max-width: 500px; /* Maximum width for content */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .logo-container img {
+    width: 1000px;
+    height: 75px; /* Adjust logo size as needed */
+  }
+  
+  .navbar-container img {
+    max-width: 100%; /* Make sure navigation image fits its container */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .login-form-container {
+    background-color: #f2f2f2; /* Light background color for login form container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Add space between form inputs */
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333; /* Dark background color for button */
+    color: white; /* White text color for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center; /* Center-align footer content */
+  }
+  

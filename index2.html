@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="header_image.png" alt="Header Image">
+  </header>
+
+  <div class="certificate">
+    <?php
+    // Fetch the username (replace this with your method of obtaining the username at login time)
+    $userName = "John Doe"; // Replace this with the actual username
+
+    // Output the certificate image with the username on top center
+    echo '<div class="certificate-img">';
+    echo '<img src="certificate.png" alt="Certificate Template">';
+    echo '<div class="username">'.$userName.'</div>';
+    echo '</div>';
+    ?>
+    <div class="options">
+      <button id="downloadBtn">Download</button>
+      <div class="social">
+        <a href="#" id="whatsappShare">WhatsApp</a>
+        <a href="#" id="twitterShare">Twitter</a>
+        <a href="#" id="telegramShare">Telegram</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
